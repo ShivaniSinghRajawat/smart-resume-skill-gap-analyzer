@@ -1,0 +1,21 @@
+[build-system]
+requires = ["setuptools>=42","wheel"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "smart-resume-skill-gap-analyzer"
+version = "0.1.0"
+authors = [
+    { name = "Shivani Singh Rajawat", email = "shivanisinghrajawat@example.com" },
+]
+description = "A tool to analyze skill gaps in resumes"
+readme = "README.md"
+license = { text = "MIT" }
+homepage = "https://github.com/ShivaniSinghRajawat/smart-resume-skill-gap-analyzer"
+repository = "https://github.com/ShivaniSinghRajawat/smart-resume-skill-gap-analyzer"
+keywords = ["resume", "skill gap", "analyzer"]
+dependencies = [
+    "numpy",
+    "pandas",
+    "scikit-learn",
+]
